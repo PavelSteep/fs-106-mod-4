@@ -396,7 +396,8 @@ img {
 }
 
 .sellers-item:hover .sellers-cover-text {
-  transform:translateY(0);
+  /* transform:translateY(0); */
+  opacity: 1;
 }
 
 .sellers-image {}
@@ -419,7 +420,7 @@ img {
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-top: 0;
   border-radius:0 0 15px 15px;
-  transition: transform 300ms ease;
+  transition: opacity 800ms ease;
 }
 
 .sellers-cover-text {
@@ -440,8 +441,9 @@ img {
   padding-right: 40px;
   display: flex;
   align-items: center;
-  transform: translateY(100%);
-  transition: transform 300ms ease;
+  /* transform: translateY(100%); */
+  opacity: 0;
+  transition: opacity 800ms ease;
 }
 
 /** ================================= */
